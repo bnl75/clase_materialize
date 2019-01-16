@@ -1,0 +1,205 @@
+/*Inicia Sticky Footer*/
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+/*Termina Sticky Footer*/
+
+nav, ul.hide-on-med-and-down  li > a {
+	height: 80px;
+}
+
+ul.hide-on-med-and-down  li > a {
+	padding-top: 7px;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+ul#mobile-demo li > a {
+	color: orange;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+#logo_img {
+	height: 75px;
+	margin-left: 25%;
+}
+
+.bevan {
+	font-family: 'Bevan', sans-serif;
+}
+
+.contacto {
+	vertical-align: top;
+	color: white;
+}
+
+.promociones {
+	text-shadow: 0 1px 0 gray, 
+	       	     0 2px 0 gray,
+	       	     0 3px 0 gray,
+	       	     0 4px 0 gray,
+	       	     0 5px 0 lightgray,
+	       	     0 6px 1px rgba(0,0,0,.1),
+	       	     0 0 5px rgba(0,0,0,.1),
+	       	     0 1px 3px rgba(0,0,0,.3),
+	       	     0 3px 5px rgba(0,0,0,.2),
+	       	     0 5px 10px rgba(0,0,0,.25),
+	       	     0 10px 10px rgba(0,0,0,.2),
+	       	     0 20px 20px rgba(0,0,0,.15);
+	color: white;
+	font-weight: bold;
+}
+
+#ropa {
+	text-shadow: 0 1px 0 white, 
+	       	     0 2px 0 white,
+	       	     0 3px 0 white,
+	       	     0 4px 0 white,
+	       	     0 5px 0 white,
+	       	     0 6px 1px rgba(0,0,0,.1),
+	       	     0 0 5px rgba(0,0,0,.1),
+	       	     0 1px 3px rgba(0,0,0,.3),
+	       	     0 3px 5px rgba(0,0,0,.2),
+	       	     0 5px 10px rgba(0,0,0,.25),
+	       	     0 10px 10px rgba(0,0,0,.2),
+	       	     0 20px 20px rgba(0,0,0,.15);
+	color: #F50057;
+	font-weight: bold;
+}
+
+span#gran {
+	font-size: 65px !important;
+}
+
+#ropa_info {
+	display: inline-block;
+	width: 205px;
+	height: 30px;
+	background-color: #27337B;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 7px;
+	margin-top: -10px;
+	/*color: #E21D90;
+	font-weight: bold;
+	text-shadow: 0 .5px 1px white, 
+	       	     0 .6px 1px white,
+	       	     0 .7px 1px white,
+	       	     0 .8px 1px white,
+	       	     0 .9px 1px white;*/
+}
+
+.electronica {
+	text-shadow: 0 1px 0 orange, 
+	       	     0 2px 0 orange,
+	       	     0 3px 0 orange,
+	       	     0 4px 0 orange,
+	       	     0 5px 0 orange,
+	       	     0 6px 1px rgba(255,150,0,.1),
+	       	     0 0 5px rgba(255,150,0,.1),
+	       	     0 1px 3px rgba(255,150,0,.3),
+	       	     0 3px 5px rgba(255,150,0,.2),
+	       	     0 5px 10px rgba(255,150,0,.25),
+	       	     0 10px 10px rgba(255,150,0,.2),
+	       	     0 20px 20px rgba(255,150,0,.15);
+	color: yellow;
+	font-weight: bold;
+}
+
+#descuento_ejercicio {
+	width: 500px;
+	height: 55px;
+	border: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	margin: 40px auto;
+	cursor: context-menu; /*Para que cambie la figura del mouse: cell, grab, move, not-allowed, wait*/
+}
+
+#descuento_ejercicio:hover {
+	background-color: black;
+	color: white;
+}
+
+.carousel {
+	height: 210px;
+}
+
+a.carousel-item > img {
+	width: 250px !important;
+}
+
+.titulo_mosaico {
+	text-align: center;
+	margin-top: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.mosaico {
+	padding: 0 !important;
+	height: 400px !important;
+}
+
+.mosaico_img {
+	width: 100%;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+	transition: 0.4s;
+}
+
+.mosaico_img:hover {
+	width: 96%;
+	height: 386px;
+	margin-left: 2%;
+	margin-top: 7px;
+	/*Calculamos la mitad de lo que se reduce y lo aplicamos para que se centre al hacer el hover*/
+}
+
+#envio {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	padding: 50px 0;
+}
+
+#flotante {
+	opacity: 0.7;
+}
+
+
+/*Media Queries para pantallas pequeñas (celulares)*/
+@media screen and (min-width: 0px) and (max-width: 522px) {
+	#logo_img {
+		height: 75px;
+		margin-left: 0;
+	}
+
+	.promociones {
+		font-size: 30px;
+	}
+
+	.electronica {
+		font-size: 35px;
+	}
+
+	#descuento_ejercicio {
+		width: 290px;
+		height: 35px;
+		font-size: 10px;
+	}
+
+}
