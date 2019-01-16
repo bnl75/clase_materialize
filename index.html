@@ -29,22 +29,41 @@
 			<ul class="right hide-on-med-and-down bevan">
 				<!-- Cambiamos links y menú de navegación. PONER ACTIVE -->
 				<li class="active"><a href="index.html">Inicio</a></li>
-				<li><a href="nosotros.html">Nosotros</a></li>
-				<li><a href="productos.html">Productos</a></li>
+				<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Departamentos<i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a href="contacto.html">Contacto</a></li>
 			</ul>
 		</div>
 	</nav>
 
+	<!-- Dropdown Structure de NAVBAR-->
+	<ul id="dropdown1" class="dropdown-content">
+	  <li><a href="ella.html">Ella</a></li>
+	  <li><a href="zapatos.html">Zapatos</a></li>
+	  <li><a href="#!">Bebés y Niños</a></li>
+	  <li><a href="#!">Deportes</a></li>
+	  <li><a href="#!">Cómputo y Electrónica</a></li>
+	  <li><a href="#!">Relojes y Lentes</a></li>
+	</ul>
+
+	<!-- Side-Navbar -->
 	<!-- Cambiamos letra con la clase: bevan -->
 	<ul class="sidenav bevan" id="mobile-demo">
 		<!-- Ponemos logo centrado en el sidenav -->
 		<center><img id="logo_img" src="img/logo.png" alt="Logo"></center>
 		<!-- Cambiamos links y menú de navegación. PONER ACTIVE -->
 		<li class="active"><a href="index.html">Inicio</a></li>
-		<li><a href="nosotros.html">Nosotros</a></li>
-		<li><a href="productos.html">Productos</a></li>
+		<li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Departamentos<i class="material-icons right">arrow_drop_down</i></a></li>
 		<li><a href="contacto.html">Contacto</a></li>
+	</ul>
+
+	<!-- Dropdown Structure de SIDE-NAVBAR-->
+	<ul id="dropdown2" class="dropdown-content">
+	  <li><a href="ella.html">Ella</a></li>
+	  <li><a href="zapatos.html">Zapatos</a></li>
+	  <li><a href="#!">Bebés y Niños</a></li>
+	  <li><a href="#!">Deportes</a></li>
+	  <li><a href="#!">Cómputo y Electrónica</a></li>
+	  <li><a href="#!">Relojes y Lentes</a></li>
 	</ul>
 	<!-- Termina el navbar -->
 
@@ -206,7 +225,7 @@
 				<div class="col l4 s12">
 					<br><br>
 					<p>O bien, envíanos un correo electrónico</p>
-					<i class="material-icons blue-text">email</i> <a href="mailto:informes@lamision.com.mx" class="contacto">informes@lamision.com.mx</a>
+					<i class="material-icons blue-text">email</i> <a href="mailto:info@riverbed.com.mx" class="contacto">info@riverbed.com.mx</a>
 				</div>
 			</div>
 		</div>
